@@ -1,39 +1,105 @@
 # Change these first
-owner: upptime # Your GitHub username
-repo: upptime # Your GitHub repository name
+owner: AmbyreNodes # Your GitHub username
+repo: nodestatus # Your Github repository name
 
 # Add your sites here
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Broken Site
-    url: https://thissitedoesnotexist.com
-  - name: Test for HEAD
-    method: HEAD
-    url: https://www.google.com
-  - name: Secret Site
-    url: $SECRET_SITE
-  - name: TCP ping
-    url: 1.1.1.1
+  - name: DE KVM Compute HV 1
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-1.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 2
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-2.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 3
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-3.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 4
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-4.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 5
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-5.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 6
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-6.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 7
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-7.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 8
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-8.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 9
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-9.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 10
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-10.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 11
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-11.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 12
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-12.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 13
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-13.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 14
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-14.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 15
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-15.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 16
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-16.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 17
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-17.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 18
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-18.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 19
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-19.de-fsn.ambyrenodes.net
+    port: 8006
+  - name: DE KVM Compute HV 20
+    check: "tcp-ping"
+    url: ds-hv-kvmcompute-20.de-fsn.ambyrenodes.net
+    port: 8006
 
+assignees:
+  - SagniKSRHUSE
+  
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
-  cname: demo.upptime.js.org
+  cname: status.ambyrenodes.net
   # Uncomment the following line if you don't have a custom domain and add your repo name
   # baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  name: Ambyre Nodes Status
+  introTitle: "Ambyre Nodes Status Page"
+  introMessage: This shows the status of all our public services and websites
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# See upptime.js.org/docs/configuration
