@@ -60,18 +60,6 @@ sites:
     check: "tcp-ping"
     url: ds-hv-kvmcompute-14.de-fsn.ambyrenodes.net
     port: 8006
-  - name: DE KVM Compute HV 15
-    check: "tcp-ping"
-    url: ds-hv-kvmcompute-15.de-fsn.ambyrenodes.net
-    port: 8006
-  - name: DE KVM Compute HV 16
-    check: "tcp-ping"
-    url: ds-hv-kvmcompute-16.de-fsn.ambyrenodes.net
-    port: 8006
-  - name: DE KVM Compute HV 17
-    check: "tcp-ping"
-    url: ds-hv-kvmcompute-17.de-fsn.ambyrenodes.net
-    port: 8006
   - name: DE KVM Compute HV 18
     check: "tcp-ping"
     url: ds-hv-kvmcompute-18.de-fsn.ambyrenodes.net
@@ -79,10 +67,6 @@ sites:
   - name: DE KVM Compute HV 19
     check: "tcp-ping"
     url: ds-hv-kvmcompute-19.de-fsn.ambyrenodes.net
-    port: 8006
-  - name: DE KVM Compute HV 20
-    check: "tcp-ping"
-    url: ds-hv-kvmcompute-20.de-fsn.ambyrenodes.net
     port: 8006
 
 assignees:
